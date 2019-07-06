@@ -1,0 +1,14 @@
+mes = input ("insira o mês que você nasceu")
+dia = input ("insira o dia que você nasceu")
+
+if (mes > 3) (mes < 6)
+print = ("A estação que você nasceu é inverno")
+
+if (mes > 6) (mes < 9)
+print = ("A estação que você nasceu é primavera")
+
+if (mes > 9) (mes < 12)
+print = ("A estação que você nasceu é outono")
+
+if (mes > 12) (mes < 3)
+print = ("A estação que você nasceu é verão")
